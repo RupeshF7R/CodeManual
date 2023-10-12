@@ -16,17 +16,20 @@ body {
     /* font-family: bitter; */
     font-family: mukta, sans-serif;
 }
-.infoD{
+
+.infoD {
     text-align: center;
     padding-bottom: 16px;
     text-transform: capitalize;
     letter-spacing: 1.5px;
-    .abcb{
+
+    .abcb {
         color: #ff4500;
 
-        
+
     }
-    .abcb:hover{
+
+    .abcb:hover {
         color: gray;
         cursor: pointer;
     }
@@ -43,37 +46,49 @@ h6 {
     letter-spacing: 1.5px;
 
 }
-.FPS1{
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.FPS1 {
     color: #ff4500;
 }
-.fps2{
+
+.fps2 {
     color: #ff4500;
 }
-/* .fourthP{
-    border-left: 2px solid #ff4500;
-    font-size:  12px;
-    margin-left: 16px;
-    letter-spacing: 1px;
-    width: 780px;
-    .fps4{
-        margin-left: 20px;
-        font-weight: bold;
 
-
-    }
-
-
-} */
-
-.quote{
+.quote {
     font-size: 13px;
     font-style: italic;
     border-left: #ff4500 2px solid;
     padding: 10px;
-    
+    margin: 32px 0 32px 32px;
+
 }
-.quote cite{
+
+.quote cite {
     display: block;
     font-weight: 800;
     margin-left: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.Ssi {
+    color: #ff4500;
+}
+.sid{
+    color: #ff4500;
 }
