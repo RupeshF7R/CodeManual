@@ -1,5 +1,40 @@
-.content{
-    max-width: 900px;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: mukta, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+.content {
+    max-width: 800px;
     margin: 0 auto;
     padding: 32px;
+    /* font-family: bitter; */
+    font-family: mukta, sans-serif;
+}
+h4{
+    text-align: center;
+    padding-bottom: 30px;
+    .abcb{
+        color: orangered;
+        
+    }
+    .abcb:hover{
+        color: gray;
+        cursor: pointer;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: bitter, serif;
+
 }
