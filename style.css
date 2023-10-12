@@ -40,6 +40,7 @@ h4,
 h5,
 h6 {
     font-family: bitter, serif;
+    letter-spacing: 1.5px;
 
 }
 .FPS1{
@@ -48,7 +49,7 @@ h6 {
 .fps2{
     color: #ff4500;
 }
-.fourthP{
+/* .fourthP{
     border-left: 2px solid #ff4500;
     font-size:  12px;
     margin-left: 16px;
@@ -62,4 +63,17 @@ h6 {
     }
 
 
+} */
+
+.quote{
+    font-size: 13px;
+    font-style: italic;
+    border-left: #ff4500 2px solid;
+    padding: 10px;
+    
+}
+.quote cite{
+    display: block;
+    font-weight: 800;
+    margin-left: 15px;
 }
