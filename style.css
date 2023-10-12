@@ -16,11 +16,14 @@ body {
     /* font-family: bitter; */
     font-family: mukta, sans-serif;
 }
-h4{
+.infoD{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
     .abcb{
         color: #ff4500;
+
         
     }
     .abcb:hover{
@@ -29,6 +32,7 @@ h4{
     }
 }
 
+
 h1,
 h2,
 h3,
@@ -36,5 +40,26 @@ h4,
 h5,
 h6 {
     font-family: bitter, serif;
+
+}
+.FPS1{
+    color: #ff4500;
+}
+.fps2{
+    color: #ff4500;
+}
+.fourthP{
+    border-left: 2px solid #ff4500;
+    font-size:  12px;
+    margin-left: 16px;
+    letter-spacing: 1px;
+    width: 780px;
+    .fps4{
+        margin-left: 20px;
+        font-weight: bold;
+
+
+    }
+
 
 }
