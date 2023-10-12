@@ -17,6 +17,34 @@ body {
     font-family: mukta, sans-serif;
 }
 
+.hero {
+    background-color: #7b33e2;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    
+    
+    
+
+
+
+}
+h1{
+    font-size: 50px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1,
+.hero p {
+    width: 90%;
+    max-width: 900px;
+}
+
 .infoD {
     text-align: center;
     padding-bottom: 16px;
@@ -89,13 +117,16 @@ h2 {
 .Ssi {
     color: #ff4500;
 }
-.sid{
+
+.sid {
     color: #ff4500;
 }
-footer{
-    background-color: #863ae8;
+
+footer {
+    background-color: #7b33e2;
 }
-footer ul{
+
+footer ul {
     list-style: none;
     margin: 0 auto;
     width: 100%;
@@ -104,20 +135,22 @@ footer ul{
     padding: 20px;
 
 
-    
+
 
 }
+
 footer ul li {
     display: inline;
-    padding: 0 16px ;
-   
+    padding: 0 16px;
+
 
 }
-footer li a{
+
+footer li a {
     text-decoration: none;
     color: white;
 }
-footer li a:hover{
+
+footer li a:hover {
     text-decoration: underline;
 }
-
